@@ -3,3 +3,5 @@ Build.ps1
 
 bin/
 obj/
+.pslocal/
+.psctx.json
