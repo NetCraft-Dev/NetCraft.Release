@@ -1,0 +1,6 @@
+{
+  "Name": "NetCraft.Release",
+  "EnableAmpersandFork": true,
+  "ShowProjectNameInPrompt": false,
+  "Env": {}
+}
