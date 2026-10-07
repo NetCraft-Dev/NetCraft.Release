@@ -570,6 +570,14 @@
           }
         }
       },
+      "ZstdSharp.Port/0.8.8": {
+        "runtime": {
+          "lib/net9.0/ZstdSharp.dll": {
+            "assemblyVersion": "0.8.8.0",
+            "fileVersion": "0.8.8.0"
+          }
+        }
+      },
       "NetCraft/0.1.0": {
         "dependencies": {
           "NetCraft.Commands": "0.1.0",
@@ -772,7 +780,8 @@
         "dependencies": {
           "NetCraft.Codec": "0.1.0",
           "NetCraft.Config": "0.1.0",
-          "NetCraft.Primitives": "0.1.0"
+          "NetCraft.Primitives": "0.1.0",
+          "ZstdSharp.Port": "0.8.8"
         },
         "runtime": {
           "NetCraft.Util.dll": {
@@ -998,6 +1007,13 @@
       "sha512": "sha512-11YMr7FnAbL83bQmVxlhbIKHvSLxjO81D12Ej0QMSGXMDTxNA9MTOa4MQxx43nv5el/efuPHwzyrj6a5ha2gug==",
       "path": "tmds.dbus.protocol/0.94.1",
       "hashPath": "tmds.dbus.protocol.0.94.1.nupkg.sha512"
+    },
+    "ZstdSharp.Port/0.8.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIDFkA5DC3en3tOJ3Mof11yBx9kUQLsaeo/oFdvN6Bbkr9E9+VCqfIadHci8cu+I51K2Sl7XYWVl2R/mA75NBQ==",
+      "path": "zstdsharp.port/0.8.8",
+      "hashPath": "zstdsharp.port.0.8.8.nupkg.sha512"
     },
     "NetCraft/0.1.0": {
       "type": "project",
