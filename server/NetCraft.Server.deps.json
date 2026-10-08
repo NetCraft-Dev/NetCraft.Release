@@ -778,6 +778,7 @@
       },
       "NetCraft.Util/0.1.0": {
         "dependencies": {
+          "Microsoft.Diagnostics.NETCore.Client": "0.2.745401",
           "NetCraft.Codec": "0.1.0",
           "NetCraft.Config": "0.1.0",
           "NetCraft.Primitives": "0.1.0",
