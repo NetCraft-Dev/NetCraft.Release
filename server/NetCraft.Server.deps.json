@@ -13,8 +13,7 @@
           "Avalonia.Themes.Fluent": "12.1.3",
           "Microsoft.Diagnostics.NETCore.Client": "0.2.745401",
           "Microsoft.Diagnostics.Tracing.TraceEvent": "3.2.8",
-          "NetCraft.Game": "0.1.0",
-          "ZstdSharp.Port": "0.8.8"
+          "NetCraft.Game": "0.1.0"
         },
         "runtime": {
           "NetCraft.Server.dll": {}
