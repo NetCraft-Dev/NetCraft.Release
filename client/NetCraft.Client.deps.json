@@ -484,7 +484,6 @@
         "dependencies": {
           "NetCraft.Commands": "0.1.0",
           "NetCraft.Network": "0.1.0",
-          "NetCraft.Optimizations": "0.1.0",
           "NetCraft.Registry": "0.1.0",
           "NetCraft.Resources": "0.1.0",
           "NetCraft.Storage": "0.1.0",
@@ -611,21 +610,6 @@
         },
         "runtime": {
           "NetCraft.Network.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
-      "NetCraft.Optimizations/0.1.0": {
-        "dependencies": {
-          "NetCraft.Nbt": "0.1.0",
-          "NetCraft.Network": "0.1.0",
-          "NetCraft.Registry": "0.1.0",
-          "NetCraft.Storage": "0.1.0",
-          "NetCraft.Util": "0.1.0"
-        },
-        "runtime": {
-          "NetCraft.Optimizations.dll": {
             "assemblyVersion": "0.1.0.0",
             "fileVersion": "0.1.0.0"
           }
@@ -1023,11 +1007,6 @@
       "sha512": ""
     },
     "NetCraft.Network/0.1.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NetCraft.Optimizations/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
