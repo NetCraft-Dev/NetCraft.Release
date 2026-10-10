@@ -621,8 +621,7 @@
           "NetCraft.Network": "0.1.0",
           "NetCraft.Registry": "0.1.0",
           "NetCraft.Resources": "0.1.0",
-          "NetCraft.Storage": "0.1.0",
-          "NetCraft.Tags": "0.1.0"
+          "NetCraft.Storage": "0.1.0"
         },
         "runtime": {
           "NetCraft.dll": {
@@ -680,23 +679,10 @@
           "NetCraft.Commands": "0.1.0",
           "NetCraft.DataFixer": "0.1.0",
           "NetCraft.Network": "0.1.0",
-          "NetCraft.Resources": "0.1.0",
-          "NetCraft.Tags": "0.1.0"
+          "NetCraft.Resources": "0.1.0"
         },
         "runtime": {
           "NetCraft.Game.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
-      "NetCraft.Interop/0.1.0": {
-        "dependencies": {
-          "NetCraft.Config": "0.1.0",
-          "NetCraft.Primitives": "0.1.0"
-        },
-        "runtime": {
-          "NetCraft.Interop.dll": {
             "assemblyVersion": "0.1.0.0",
             "fileVersion": "0.1.0.0"
           }
@@ -706,7 +692,6 @@
         "dependencies": {
           "NetCraft.Codec": "0.1.0",
           "NetCraft.Config": "0.1.0",
-          "NetCraft.Interop": "0.1.0",
           "NetCraft.Primitives": "0.1.0",
           "NetCraft.Util": "0.1.0"
         },
@@ -780,18 +765,6 @@
         },
         "runtime": {
           "NetCraft.Storage.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
-      "NetCraft.Tags/0.1.0": {
-        "dependencies": {
-          "NetCraft.Registry": "0.1.0",
-          "NetCraft.Util": "0.1.0"
-        },
-        "runtime": {
-          "NetCraft.Tags.dll": {
             "assemblyVersion": "0.1.0.0",
             "fileVersion": "0.1.0.0"
           }
@@ -1158,11 +1131,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NetCraft.Interop/0.1.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "NetCraft.Nbt/0.1.0": {
       "type": "project",
       "serviceable": false,
@@ -1189,11 +1157,6 @@
       "sha512": ""
     },
     "NetCraft.Storage/0.1.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NetCraft.Tags/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

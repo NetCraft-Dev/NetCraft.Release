@@ -10,7 +10,7 @@
         "dependencies": {
           "Mono.Cecil": "0.11.6",
           "NetCraft": "0.1.0",
-          "Lead.Hook": "2.3.0.0"
+          "Lead.Hook": "2.3.1.0"
         },
         "runtime": {
           "NetCraft.ModLoader.dll": {}
@@ -108,8 +108,7 @@
           "NetCraft.Network": "0.1.0",
           "NetCraft.Registry": "0.1.0",
           "NetCraft.Resources": "0.1.0",
-          "NetCraft.Storage": "0.1.0",
-          "NetCraft.Tags": "0.1.0"
+          "NetCraft.Storage": "0.1.0"
         },
         "runtime": {
           "NetCraft.dll": {
@@ -161,23 +160,10 @@
           }
         }
       },
-      "NetCraft.Interop/0.1.0": {
-        "dependencies": {
-          "NetCraft.Config": "0.1.0",
-          "NetCraft.Primitives": "0.1.0"
-        },
-        "runtime": {
-          "NetCraft.Interop.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
       "NetCraft.Nbt/0.1.0": {
         "dependencies": {
           "NetCraft.Codec": "0.1.0",
           "NetCraft.Config": "0.1.0",
-          "NetCraft.Interop": "0.1.0",
           "NetCraft.Primitives": "0.1.0",
           "NetCraft.Util": "0.1.0"
         },
@@ -256,18 +242,6 @@
           }
         }
       },
-      "NetCraft.Tags/0.1.0": {
-        "dependencies": {
-          "NetCraft.Registry": "0.1.0",
-          "NetCraft.Util": "0.1.0"
-        },
-        "runtime": {
-          "NetCraft.Tags.dll": {
-            "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.0.0"
-          }
-        }
-      },
       "NetCraft.Util/0.1.0": {
         "dependencies": {
           "Microsoft.Diagnostics.NETCore.Client": "0.2.745401",
@@ -283,11 +257,11 @@
           }
         }
       },
-      "Lead.Hook/2.3.0.0": {
+      "Lead.Hook/2.3.1.0": {
         "runtime": {
           "Lead.Hook.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
           }
         }
       }
@@ -380,11 +354,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NetCraft.Interop/0.1.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "NetCraft.Nbt/0.1.0": {
       "type": "project",
       "serviceable": false,
@@ -415,17 +384,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NetCraft.Tags/0.1.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "NetCraft.Util/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lead.Hook/2.3.0.0": {
+    "Lead.Hook/2.3.1.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
