@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v10.0": {
       "NetCraft.ModLoader/0.1.0": {
         "dependencies": {
-          "Lead.Hook": "2.3.1",
           "Mono.Cecil": "0.11.6",
-          "NetCraft": "0.1.0"
+          "NetCraft": "0.1.0",
+          "NetCraft.Hook": "0.1.0"
         },
         "runtime": {
           "NetCraft.ModLoader.dll": {}
@@ -102,17 +102,6 @@
           }
         }
       },
-      "Lead.Hook/2.3.1": {
-        "dependencies": {
-          "Mono.Cecil": "0.11.6"
-        },
-        "runtime": {
-          "Lead.Hook.dll": {
-            "assemblyVersion": "2.3.1.0",
-            "fileVersion": "2.3.1.0"
-          }
-        }
-      },
       "NetCraft/0.1.0": {
         "dependencies": {
           "NetCraft.Commands": "0.1.0",
@@ -166,6 +155,17 @@
         },
         "runtime": {
           "NetCraft.DataFixer.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "NetCraft.Hook/0.1.0": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.6"
+        },
+        "runtime": {
+          "NetCraft.Hook.dll": {
             "assemblyVersion": "0.1.0.0",
             "fileVersion": "0.1.0.0"
           }
@@ -332,11 +332,6 @@
       "path": "zstdsharp.port/0.8.8",
       "hashPath": "zstdsharp.port.0.8.8.nupkg.sha512"
     },
-    "Lead.Hook/2.3.1": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "NetCraft/0.1.0": {
       "type": "project",
       "serviceable": false,
@@ -358,6 +353,11 @@
       "sha512": ""
     },
     "NetCraft.DataFixer/0.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCraft.Hook/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
